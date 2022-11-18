@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FAFAFA;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {}
+
+.cel {
+    width: 450px;
+    position: relative;
+}
+
+.imagem-celular {
+    height: 535px;
+    width: 261px;
+    position: absolute;
+    left: 425px;
+    bottom: 45px;
+    transition: opacity 2s ease-in-out;
+}
+
+.instagram {
+    width: 350px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #DBDBDB;
+    background: #FFFFFF;
+    padding: 50px 40px 50px 40px;
+}
+
+input {
+    height: 36px;
+    outline: none;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-top: 5px;
+    color: #262626;
+    font-size: 15px;
+}
+
+button {
+    background: #0095F6;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+.insta-logo {
+    margin-bottom: 10px;
+}
+
+.login {
+    color: #385185;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.forget {
+    color: #385185;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #DBDBDB;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.paragrafo-conta {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.cadastro-conta {
+    color: #0095F6;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.download {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo-app {
+    width: 150px;
+}
